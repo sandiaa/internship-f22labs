@@ -14,6 +14,7 @@ return st;
 } 
 int checkPresence(string &w) 
 { 
+//file is used so that the words can be added any time.
 fstream file; 
 string word,filename; 
 filename = "db.txt"; 
